@@ -1,0 +1,25 @@
+
+.products{
+    display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+text-align: center;
+gap: 50px;
+justify-content: center;
+}
+.product{
+    width: 30%;
+
+transition: transform .5s;
+}
+.product5:hover{
+transform: scale(1.05);
+box-shadow: 0 8px 16px rgb(0, 0, 0,0.6);
+}
+h2{
+    font-size: 16px;
+   
+}
+p{
+    width: 30%;
+}
